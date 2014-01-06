@@ -1,0 +1,72 @@
+/* Feuille de style */
+
+/* Architecture */
+
+a { color: #1155CC; font-family: Tahoma; font-size: 14px; text-decoration: none;}
+p { font-family: Tahoma; font-size: 14px; }
+
+h1, h2, h3 { font-family: Tahoma; }
+
+h1 { margin-top:0px; }
+
+td { }
+tr { }
+
+p.title { margin: 0px; overflow:hidden;  }
+p.url, p.secondLine { margin: 0px; }
+
+p.info { margin: 0px; }
+
+.shy { color: #444; font-size: 12px; margin:0; }
+
+.main { width: 955px;  -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; border: 1px solid #e0e0e0; padding:25px; padding-top: 15px; margin-left:auto; margin-right:auto; }
+
+.leftZone { width:150px; float: left; }
+.mainZone { width: 800px; float: left; }
+
+.spacer { clear:both; }
+
+/* Liens de haut */
+.linkTop { margin: 10px; margin-left:0px; padding: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; border: 1px solid #e0e0e0; }
+
+
+/* liste de resultats */
+.listeResults {   margin-top: 20px;  -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; border: 1px solid grey; }
+.listeResults td { padding: 0px; margin: 0px;}
+/*
+.listeResults .bgJaune { background: #F4FFB7; }
+.listeResults .bgVert { background: #B7FFAA; }
+*/
+.listeResults .bgJaune { background: #FAFAFA; }
+.listeResults .bgVert { background: #F8F8F8; }
+
+
+.listeResults td { height: 55px; width: 800px; padding-left: 10px; }
+.listeResults td .timing { font-size:12px; color: #9C9C9C; }
+.listeResults td .url { display: none; font-size: 12px; color: #989898; }
+.listeResults td .actions { display: none;  }
+.listeResults td .actions a { font-size: 12px; }
+.listeResults td .actions a:hover { font-size: 12px; text-decoration: underline; }
+
+.notification { width: 50px; float: left; margin-top: -5px;  }
+.tdcontent { float: left; }
+
+
+/* template ajout */
+
+.add { -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; border: 1px solid grey; padding: 20px;}
+.add h2 { font-size: 14px; font-weight: bold; margin-top: 0px;}
+.add input.url { width: 700px; border: 1px solid grey; padding: 5px; font-family: Tahoma; display: block; }
+.add input.submit { display: block; margin-top: 20px;}
+
+
+.connection { width: 400px;  -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; border: 1px solid grey; padding: 20px; margin-top: 150px; margin-left: auto; margin-right: auto;}
+.connection h1 { margin-top:0px; margin-bottom: 15px; font-size: 18mainpx; }
+
+
+
+.indicators a { font-size:10px; }
+
+
+
+
