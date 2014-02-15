@@ -82,6 +82,11 @@
 
 	while (isset($resdata[$i])) {
 		$resdata[$i]->wnote = (int)($resdata[$i]->deltatime / $amplitude_ts * 6);
+		
+		if ($resdata[$i]->wnote > 6) {
+			$resdata[$i]->wnote = 6;
+		}
+		
 		$total_wnote+=$resdata[$i]->wnote;
 		$i++;
 	

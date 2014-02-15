@@ -12,7 +12,7 @@
 						<img src="public/images/warning.png" width="25px;"/>
 					<? else: ?>
 					
-						<img src="public/images/<?=(int)(($item->deltatime / $amplitude_ts * 6)); ?>.png" width="45px;"/>
+						<img src="public/images/<?=$item->wnote; ?>.png" width="45px;"/>
 					<? endif; ?>
 				</div>
 				
