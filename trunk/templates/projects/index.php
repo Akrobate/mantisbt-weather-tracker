@@ -1,5 +1,4 @@
-<!-- Template pages/index -->
-
+<!-- Template project/index -->
 
 <table class="listeResults">
 

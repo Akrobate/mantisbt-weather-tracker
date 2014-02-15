@@ -175,13 +175,23 @@ class html {
 		$all = $issuesCountArray['All'];
 		$html = "<div style=\" width:".$width."px; height:". $height."px;\">";
 			
+		if(isset($issuesCountArray['resolved'])) {
+			$newarray['resolved'] = $issuesCountArray['resolved'];
 			foreach($issuesCountArray as $k => $it) {
+				if ($k != "resolved") {
+					$newarray[$k] = $it;
+				}
+			}			
+		} else {
+		
+			$newarray = $issuesCountArray;
+		}
+			
+			foreach($newarray as $k => $it) {
 				if ($k != "All") {
 					
 					$thWith = (int)($it / $all * $width);
 					$html .= "<div style=\" float:left;width:".$thWith."px; height:".$height."px; background-color: $color[$k] \"></div>";
-					
-				
 				}
 
 			}
