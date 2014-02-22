@@ -22,7 +22,7 @@
 						<? if (isset($item->issues_count['resolved'])): ?>
 							 <?$percent = (int)($item->issues_count['resolved'] / $item->issues_count['All'] * 100) ; ?>
 						<? else : ?>
-							<?$precent = 0;?>
+							<?$percent = 0;?>
 						<? endif; ?>					
 						</p>
 					<p class="secondLine">
