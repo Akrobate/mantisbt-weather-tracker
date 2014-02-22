@@ -19,9 +19,11 @@
 					<p class="title">
 						<strong><?=$item->name ?></strong> 
 						
-						
-						 <?$percent = (int)($item->issues_count['resolved'] / $item->issues_count['All'] * 100) ; ?>
-						
+						<? if (isset($item->issues_count['resolved'])): ?>
+							 <?$percent = (int)($item->issues_count['resolved'] / $item->issues_count['All'] * 100) ; ?>
+						<? else : ?>
+							<?$precent = 0;?>
+						<? endif; ?>					
 						</p>
 					<p class="secondLine">
 					<span class="timing"><?=html::secondsToRemainingTime($item->deltatime) ?></span>
