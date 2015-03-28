@@ -1,4 +1,10 @@
 <?php
+	/**
+ 	 *	Artiom FEDOROV
+	 *
+	 */
+
+
 	session_start();
 	error_reporting(15);
 	// Define des chemins du projet
