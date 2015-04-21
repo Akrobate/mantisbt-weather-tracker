@@ -6,6 +6,8 @@
 	$password = request::get("password");
 	$server = request::get("server");
 	
+	$server = "http://" . $server . "/api/soap/mantisconnect.php?wsdl";
+	
 	$connected = false;
 
 	if (($login != "") && ($password != "")) {
