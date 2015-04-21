@@ -7,7 +7,7 @@
 	<? endif; ?>
 	<form method="post">
 		<table border="0">
-			<tr>
+			<!--tr>
 				<td>
 					<span class="shy">Serveur Mantis:</div>
 				</td>
@@ -16,7 +16,15 @@
 						<option value="http://89.156.15.165/mantis/api/soap/mantisconnect.php?wsdl" selected>http://89.156.15.165/mantis</option>
 					</select>
 				</td>
-			</tr>
+			</tr-->
+			<tr>
+				<td>
+					<span class="shy">Serveur Mantis:</div>
+				</td>
+				<td>
+					<input type="text" name="server" />
+				</td>
+			</tr>			
 			<tr>
 				<td>
 					<span class="shy">Login:</div>
