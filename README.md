@@ -1,5 +1,6 @@
 # MantisBR Weather Trancker
 
+
 <table width="70%" border="0">
 <tr><td>
 <img src="https://lh3.googleusercontent.com/-D2RFOMIHxbo/UssGAjUVVgI/AAAAAAAABu4/d0jco9VaI3U/w250-h150-no/weather_tracker.png"  />
@@ -11,12 +12,12 @@
 </table>
 
 
-## Introduction==
+## Introduction
 
 Le petit projet MantisBT Weather Tracker est un simple tableau de bord pour MantisBT. Ce script est codé sous forme d'un client qui interroge une instance Mantis en SOAP. Vous pouvez utiliser directement vos logins / mot de passe de votre mantis pour obtenir la vue Météo de votre mantis avec MantisWeatherTracker
 
 
-## L'idée==
+## L'idée
 
 Le projet weather tracker est né d'une réelle nécessite de se faire une idée aussi précise que rapide de l'état d'avancement de tous ses projets. Le script MantisBT propose une importante quantité de rapports, cela étant dit tout le monde aura remarqué l'aspect très "technique" (voir austère) des écrans de mantisBT.
 Ce tableau de bord qui score l'avancement de chaque projet et le représente sous une forme ludique et très parlante a tous (la météo) vous rendra le clin d’œil rapide aux avancements mantis plus agrèable et ergonomique.
